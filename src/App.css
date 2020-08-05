@@ -1,7 +1,27 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw
 }
-
+.App img{
+ height: 40vh;
+ margin: 1rem;   
+}
+button{
+  width: 10rem;
+  height: 5rem;
+  background-color: gray;
+  border: gray 2px solid;
+  color: blue;
+  transition: 1s all linear;
+}
+button:hover{
+  color: white;
+  background: blue;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
